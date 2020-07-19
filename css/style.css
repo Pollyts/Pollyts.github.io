@@ -1,16 +1,22 @@
 body{
     background: #F0F3FF;
     font-family: Arial;
+    /* width: 1600px; */
+    /* height: 1378px; */
+    padding: 80px;
 }
 
 .container {
-    width: 1440px;
-    height: 1218px;
+    /* width: 1440px;
+    height: 1218px; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 80px;
-    background: #FFFFFF;
 }
 
 .eventheader{
@@ -26,14 +32,37 @@ color: #2E282C;
 
 .selectionbox
 {
-
-
-font-style: normal;
-font-weight: 500;
 font-size: 24px;
-line-height: 33px;
+line-height: 33px; 
+margin-top: 49px;
+margin-bottom: 50px;
 /* identical to box height */
 
 
 color: #2E282C;
+}
+
+.select
+{
+padding-left: 22px;
+padding-top: 8px;
+padding-bottom: 9px;
+margin-left: 20px;
+margin-right: 20px;
+border: 1px solid #444444;
+box-sizing: border-box;
+border-radius: 6px;
+width: 200px;
+height: 50px;
+font-size: 24px;
+}
+.images{
+/* width: 600px;
+height: 400px; */
+/* display: flex; 
+  align-items: center;
+  justify-content: center; */
+margin-right: 40px;
+margin-bottom: 40px;
+border-radius: 6px;
 }
