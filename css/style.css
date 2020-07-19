@@ -1,20 +1,20 @@
 body{
     background: #F0F3FF;
     font-family: Arial;
-    /* width: 1600px; */
-    /* height: 1378px; */
+    width: 1600px; 
+    height: 1378px;
     padding: 80px;
 }
 
 .container {
-    /* width: 1440px;
-    height: 1218px; */
+    width: 1440px;
+    height: 1218px;
 
     background: #FFFFFF;
-    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12); */
     border-radius: 16px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px; 
     padding-top: 100px;
     padding-bottom: 80px;
 }
@@ -57,12 +57,78 @@ height: 50px;
 font-size: 24px;
 }
 .images{
-/* width: 600px;
-height: 400px; */
+width: 600px;
+height: 400px;
 /* display: flex; 
   align-items: center;
   justify-content: center; */
+/* margin-right: 40px;
+margin-bottom: 40px; */
+border-radius: 6px;
+}
+.lefttopimage{
 margin-right: 40px;
 margin-bottom: 40px;
+width: 600px;
+height: 400px;
 border-radius: 6px;
+}
+.leftbuttomimage{
+margin-right: 40px;
+width: 600px;
+height: 400px;
+border-radius: 6px;
+}
+.righttopimage{    
+    width: 600px;
+    height: 400px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.date{
+    padding-bottom: 5px;
+    padding-top: 9px;
+    padding-left: 13px;
+    padding-right:13px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 66px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 6px;
+}
+
+.vector{   
+    position: absolute; 
+    margin-left: 545px;
+    margin-top: 40px;
+}
+
+.textname{
+position: absolute;
+height: 66px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 66px;
+margin-top: 292px;
+margin-left: 40px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
 }
